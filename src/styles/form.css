@@ -1,0 +1,60 @@
+.formContainer {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #424035;
+}
+form {
+  width: 30%;
+  background-color: #2d2b23;
+  border-radius: 16px;
+  height: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+form > input,
+form > button {
+  width: 80%;
+  height: 10%;
+}
+.login {
+  background-color: #ddcb89;
+  border: none;
+  color: #000;
+  border-radius: 12px;
+  margin: 15px 0;
+}
+input {
+  margin: 3px 0;
+}
+.bef::before {
+  content: "";
+  border: 5px solid #f8d442;
+  margin: 0 10px;
+}
+.bef {
+  margin: 10px 0;
+}
+.inppp {
+  text-align: center;
+  border-radius: 6px;
+  border: 1px solid #999696;
+}
+button {
+  cursor: pointer;
+}
+.inppp{
+  background-color: transparent ;
+  border: 1px solid rgba(238, 238, 238, 0.2) !important;
+  color: #cacaca;
+}
+.label{
+  color: #fff;
+}
+.welcome{
+  font-size: 40px;
+}
